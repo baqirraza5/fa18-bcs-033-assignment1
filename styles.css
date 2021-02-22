@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+.resume {
+  width: 800px;
+  background: #fff;
+  margin: 25px auto;
+  display: flex;
+}
+
+.left_resume_container {
+  background: #abb2b9;
+  width: 260px;
+  padding: 0 20px;
+}
+
+.right_resume_container {
+  width: calc(100% - 260px);
+}
+
+.left_resume_container .img_container {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.left_resume_container .img_container img {
+  width: 200px;
+  border-radius: 30px;
+}
+
+.contact_container {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  color: #3525af;
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.title:before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 100px;
+  height: 3px;
+  background: #3525af;
+}
+
+.contact .list_container .icon {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.contact .list_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact .list_container .text {
+  width: calc(100% - 30px);
+  word-break: break-word;
+  color: #fff;
+  font-size: 14px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills .list_container {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.skills .list_container .icon {
+  font-size: 60px;
+  display: flex;
+}
+
+.skills .list_container:hover {
+  background-color:  #d0d3d4 ;
+}
+
+.skills .list_container .text {
+  margin-top: 5px;
+}
+
+.languages .list_container {
+  margin-bottom: 15px;
+}
+
+.languages .list_container .text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.languages .list_container .subText {
+  font-size: 16px;
+  font-style: italic;
+  color:   #2874a6  ;
+}
+
+.header {
+  background: #abb2b9;
+  padding: 15px 30px;
+  color: #fff;
+  height: 240px;
+}
+
+.header .name {
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3525af;
+}
+
+.header .designation {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header .about {
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.right_inner_container{
+	padding: 30px;
+	color: #fff;
+    background-color: #17202a;
+}
+
+.right_inner_container .education{
+	margin-top: 30px;
+}
+
+.right_inner_container .list_container{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner_container .list_container .date {
+    width: 125px;
+    color: #9153c9;
+}
+
+.right_inner_container .list_container .information{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner_container .list_container .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #9153c9;
+}
+
+.right_inner_container .list_container .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.right_inner_container .list_container .information:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #9153c9;
+	border-radius: 50%;
+}
+
+.right_inner_container .list_container .information:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #9153c9;
+}
